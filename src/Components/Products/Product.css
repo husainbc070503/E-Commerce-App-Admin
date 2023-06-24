@@ -1,0 +1,55 @@
+.add-form,
+.edit-form {
+    width: 650px;
+    max-width: 95%;
+    margin: 15px auto 30px;
+    padding: 0 10px;
+}
+
+.input-group {
+    margin: 22px auto;
+    display: block;
+}
+
+.products-lists-container {
+    margin: 25px 0;
+    padding: 25px 0;
+    width: 100%;
+}
+
+.badge {
+    text-transform: capitalize;
+}
+
+.quantity {
+    margin: 15px 0;
+}
+
+.image {
+    position: relative;
+    width: 850px;
+    height: 400px;
+    max-width: 90%;
+    margin: auto;
+}
+
+.edit-form {
+    width: 740px;
+}
+
+.image>img {
+    height: inherit;
+    width: inherit;
+    border-radius: 10px;
+}
+
+.image .icon {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    padding: 16px;
+    border-radius: 50%;
+    background: #fff;
+    color: #0E2954;
+    cursor: pointer;
+}
